@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>solar solution</title>
+    <Style>
+        ul {
+            list-style-type: none;
+            background-color: black;
+            /* border: 1px solid red; */
+            overflow: auto;
+            padding: 0%;
+            margin: 0%;
+
+        }
+
+        ul li {
+            float: right;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 5px 5px 5px;
+            display: block;
+            margin: 0px 10px 0 10px;
+            padding: 20px 0 20px 0;
+            font-size: 18;
+
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        /* banner start */
+        .bannerdiv {
+
+            margin-top: 20px;
+        }
+
+        .banneri1 {
+            border-radius: 10px;
+            width: 1000.2px;
+            height: 402.37px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 60%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            color: white;
+            /* Change text color as needed */
+            font-size: 50px;
+            /* Adjust font size as needed */
+
+        }
+
+        .bannerspan {
+            color: red;
+        }
+
+        /* banner end */
+
+        /* section 1 start */
+        .divs1 {
+            margin-left: 90px;
+            padding-top: 20px;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+
+        .mainimage {
+            float: left;
+            position: relative;
+            /* Adding this line */
+            margin-right: 20px;
+
+        }
+
+        .s1images {
+            width: 200px;
+            height: 300px;
+            padding-right: 10px;
+            margin-right: 10px;
+
+
+        }
+
+        .text-overlayy {
+            position: absolute;
+            top: 20px;
+
+            padding-left: 10px;
+            left: 10;
+            /* Adjusted to position text on the left */
+            color: white;
+            font-size: 16px;
+            /* Adjust font size */
+            margin-right: 10px;
+
+
+
+        }
+
+        .span2 {
+            color: rgb(44, 0, 0);
+
+        }
+
+        /* section 1 end */
+
+        /* section 2 start */
+        .s2div {
+            background-color:rgb(206, 197, 197);
+            width: 100%;
+            height: 500px;
+            /* border: 1px solid red; */
+
+        }
+
+        .cards2 {
+            /* margin-left: 60px; */
+
+            width: 180px;
+            /* border: 1px solid black; */
+
+            height: 180px;
+            /* box-shadow: 0 0px 8px; */
+            color: red;
+            margin: 50px 0 0 90px;
+
+            background-color: white;
+            border-radius: 10px;
+            float: left;
+
+
+        }
+
+        .bb {
+            margin-left: 180px;
+        }
+
+        .cards2p {
+            font-size: 10px;
+            color: dimgrey;
+            margin: 0 0 0 10px;
+        }
+
+        .card {
+            /* border: 1px solid red; */
+            margin: 10px 0 0 90px;
+            overflow: auto;
+            float: left;
+
+        }
+
+        .card1 {
+            /* border: 1px solid red; */
+            margin: 10px 0 0 90px;
+            overflow: auto;
+            float: left;
+            padding-right: 120px;
+
+
+        }
+
+        /* section 2 end */
+
+        /* section 3 start */
+        .divs3 {
+
+            width: 100%;
+            height: 350px;
+            background-color: red;
+            color: white;
+            clear: both;
+            /* padding: 50px; */
+            /* margin: 20px; */
+
+        }
+
+        .s3b1 {
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            color: black;
+            background-color: white;
+            border: none;
+        }
+
+        .s3b2 {
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            color: white;
+            background-color: black;
+            border: none;
+            overflow: hidden;
+
+        }
+
+        .s3d2 {
+
+            width: 350px;
+            height: 240px;
+            /* padding-left: 450px; */
+            margin-right: 80px;
+            margin-top: 50px;
+            /* clear: both; */
+            float: right;
+
+
+        }
+
+        .demo {
+            width: 550px;
+            padding: 50px;
+            float: left;
+            /* border: 1px solid black; */
+        }
+
+
+        /* section 3 end */
+
+        /* section 4 start */
+        .s4d {
+            width: 100%;
+            height: 480px;
+            background-color: white;
+            /* text-align: center; */
+            padding-top: 20px;
+
+        }
+
+        .s4i {
+            height: 350px;
+            width: 250px;
+
+            clear: both;
+        }
+
+        .cards3 {
+            /* margin-left: 60px; */
+
+            width: 250px;
+            /* border: 1px solid black; */
+
+            height: 350px;
+            /* box-shadow: 0 0px 8px;
+            color: red; */
+            margin: 50px 0 0 90px;
+
+            background-color: white;
+            border-radius: 10px;
+            float: left;
+
+        }
+
+        .cardstwo {
+            /* margin-left: 80px; */
+
+            width: 180px;
+            /* border: 1px solid black; */
+
+            height: 180px;
+
+            color: red;
+            margin: 50px 0 0 90px;
+
+            background-color: rgb(206, 197, 197);
+            border-radius: 10px;
+            float: left;
+
+
+        }
+
+        .cardimage {
+            height: 48px;
+            width: 48px;
+            margin: 10px 0 0 10px;
+        }
+
+        /* section 4 end *
+        /
+        /* header start */
+        .header {
+            width: 100%;
+            height: 530px;
+            background-color: black;
+            clear: both;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            display:  inline-block;
+
+        }
+        .header1 {
+            
+            background-color: black;
+            clear: both;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            padding-top: 20px;
+            padding-left: 50px;
+            display: inline-block;
+
+        }
+       
+       
+      
+   
+
+        /* header end */
+    </Style>
+
+
+
+</head>
+
+<body>
+    <!-- NAV BAR START -->
+    <div>
+        <ul>
+            <li><a href="#">ASTHETIC</a></li>
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#">OUR SERVICES</a></li>
+            <li><a href="#">SOLAR INITIATIVES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><img src="./images/i14.png"  width="58px" height="58px"></li>
+
+
+
+
+        </ul>
+    </div>
+    <!-- NAV BAR END -->
+
+    <!-- BANNER START -->
+    <div class="bannerdiv">
+        <img class="banneri1" src="./images/i1.png" alt="i1">
+        <div class="text-overlay">
+            <p>Solar<br> <span class="bannerspan">Solutions</span> for <br> a Sustainable <br> Tomorrow<span
+                    class="bannerspan">.</span></p>
+        </div>
+
+    </div>
+    <!-- BANNER END -->
+
+    <!-- section 1 start -->
+    <div class="divs1">
+        <h2>Our Expertise and Experience</h2>
+
+        <div class="mainimage">
+            <img class="s1images" src="./images/i2.png" alt="">
+            <div class="text-overlayy">
+                <span class="span2">
+                    <h3>Solar <br> Solutions</h3>
+                </span>
+                <p>Harness the power of the sun <br> and embrace clean, renewable <br> energy with our solar
+                    solutions.</p>
+            </div>
+        </div>
+
+        <div class="mainimage">
+            <img class="s1images" src="./images/i3.png" alt="">
+            <div class="text-overlayy">
+                <span class="span2">
+                    <h3>Cable <br> Services</h3>
+                </span>
+                <p>Stay connected with high <br>-quality cable services that <br> deliver reliable and fast <br>
+                    internet, television</p>
+            </div>
+        </div>
+
+
+        <div class="mainimage">
+            <img class="s1images" src="./images/i4.png" alt="">
+            <div class="text-overlayy">
+                <span class="span2">
+                    <h3>Internet <br> solutions</h3>
+                </span>
+                <p>From fast broadband to fiber <br> -optic connections, we'll help <br> you find the internet
+                    service <br>provider</p>
+            </div>
+        </div>
+        <div class="mainimage">
+            <img class="s1images" src="./images/i5.png" alt="">
+            <div class="text-overlayy">
+                <span class="span2">
+                    <h3>Phones <br> Services</h3>
+                </span>
+                <p>Discover cost-effective and <br> feature-rich phone services <br> that keep you connected to <br>
+                    your loved ones</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- section 1 end -->
+
+
+    <!-- section 2 start -->
+    <div class="s2div">
+        <div class="cards2  bb">
+            <h1 style="margin: 0px 0 0 10px ; color: rgb(44, 0, 0);">Why Choose <br> Us?</h1>
+            <p class="cards2p">Whether you're looking to switch to <br> solar energy or upgrade your cable <br>
+                services, our sales and marketing <br> company is here to help.</p>
+
+        </div>
+        <div class="cards2">
+            <h1 style="color: red;  margin: 30px 0 0 10px;">01</h1><br>
+            <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Expertise and Experience</h5> <br>
+            <p class="cards2p">With years of experience in the sales <br> and marketing industry, our team <br> has a
+                deep
+            </p>
+
+        </div>
+        <div class="cards2">
+            <h1 style="color: red;  margin: 30px 0 0 10px;">02</h1><br>
+            <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Extensive Network</h5> <br>
+            <p class="cards2p">We have established strong <br> relationships with the leading solar <br> and cable
+                companies in the region</p>
+        </div>
+
+        <div class="card">
+            <div class="cards2">
+                <h1 style="color: red;  margin: 30px 0 0 10px;">03</h1><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Personalized Approach</h5> <br>
+                <p class="cards2p">We believe that every customer is <br> unique, and their needs should be <br>
+                    addressed
+                    accordingly</p>
+            </div>
+
+            <div class="cards2">
+                <h1 style="color: red;  margin: 30px 0 0 10px;">04</h1><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Cost Saving</h5> <br>
+                <p class="cards2p">By leveraging our industry knowledge <br> and network, we can help you save <br>
+                    money on
+                    your solar and cable <br> purchases</p>
+            </div>
+            <div class="cards2">
+                <h1 style="color: red;  margin: 30px 0 0 10px;">05</h1><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Hassle-Free Process</h5> <br>
+                <p class="cards2p">We handle all the research,<br> negotiations, and paperwork for you, <br> making the
+                    process of finding</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- section2 end -->
+
+    <!-- section 3 start -->
+    <div class="divs3">
+        <div class="demo">
+            <h2> Who We Are</h2>
+            <p>Welcome to our sales and marketing company, where we <br> specialize in helping customers snag great
+                deals
+                from the <br> leading solar and cable companies in the DC, Maryland,<br> and Virginia area.We understand
+                that finding the <br>right solar and cable solutions for your needs can be a <br> daunting task, which
+                is
+                why we're here to make <br>the process easier and more affordable for you.</p>
+            <br>
+            <button class="s3b1">Read More</button>
+            &nbsp;
+            <button class="s3b2">Contact Us Today</button>
+        </div>
+
+        <div>
+            <img class="s3d2" src="./images/i6.png" alt="">
+        </div>
+
+    </div>
+    <!-- section 3 end -->
+
+    <!-- section 4 start -->
+    <div class="s4d">
+        <center>
+            <h4 style="color: red;">our services</h4>
+        </center>
+        <center>
+            <h1>What We Do</h1>
+        </center>
+
+        <div>
+            <div class="cardstwo">
+                <img class="cardimage" src="./images/i8.png" alt=""><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Solar solution</h5> <br>
+                <p class="cards2p">Harness the power of the sun and <br> embrace clean, renewable energy <br> with our
+                    solar solutions.</p>
+            </div>
+            <!-- <div class="cards3">
+                <img class="s4i" src="./images/i7.png" alt="">
+            </div> -->
+            <div class="cardstwo">
+                <img class="cardimage" src="./images/i9.png" alt=""><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Deals and Promotions</h5> <br>
+                <p class="cards2p">We pride ourselves on securing great deals and promotions for our customers.</p>
+            </div>
+
+            <div class="cardstwo">
+                <img class="cardimage" src="./images/i10.png" alt=""><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Consultation and Support</h5> <br>
+                <p class="cards2p">We understand that navigating the solar and cable landscape can be overwhelming.</p>
+            </div>
+
+            <div class="cardstwo">
+                <img class="cardimage" src="./images/i11.png" alt=""><br>
+                <h5 style="color: rgb(44, 0, 0);  margin: 0 0 0 10px; ">Cable Services</h5> <br>
+                <p class="cards2p">Stay connected with high-quality cable services that deliver reliable and fast
+                    internet, television</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- section 4 end -->
+
+    <!-- header start -->
+
+    <div class="header">
+        
+        <center>
+            <p style="padding: 20px;">Whether you're looking to switch to solar energy or upgrade your cable services,
+                our sales and marketing
+                company is here to help. <br> Contact us today to start saving on your energy bills and enjoy reliable
+                connectivity from the leading solar and cable companies in the <br> DC, Maryland, and Virginia area.
+                Snag
+                the best deals with us and embrace a brighter and more connected future.</p>
+        </center>
+        <hr>
+
+        <div class="header1 ">
+            <p>Contact us today to explore our services and <br> take advantage of the great deals available <br> from the leading
+                solar and cable companies in the <br> DC, Maryland, and Virginia area. Let us be your <br> trusted partner in
+                finding the  best solutions for <br>your energy and connectivity need</p>
+        </div>
+
+      <div class="header1 ">
+        <h2>Quick Links</h2>
+        <p>HOME <br><br>
+            ABOUT US <br><br>
+            SOLAR INITIATIVES <br><br>
+            OUR SERVICES <br><br>
+            COMMUNITY <br><br>
+            AESTHETICS</p>
+
+      </div>
+      <div class="header1 ">
+        <h2>Services</h2>
+        <p>Solar Solution <br><br>
+            Cable Services <br> <br>
+            Deals and Promotions <br> <br>
+            Consultation and Support </p>
+
+      </div>
+      <div class="header1 ">
+        <h2>Contact</h2>
+        <p><img src="./images/i12.png" alt="" width="28px" height="28px">1234567890</p>
+        <p> <img src="./images/i13.png" alt="" width="28px" height="28px">companyname@gmail.com</p>
+
+      </div>
+      <hr>
+      <center><p>© 2023 Company Name  -  developed by Roots Digital Marketing</p></center>
+
+    </div>
+    <!-- header end -->
+
+
+</body>
+
+</html>
